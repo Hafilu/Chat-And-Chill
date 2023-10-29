@@ -12,6 +12,7 @@ import { useToast } from "@chakra-ui/react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
 import { loginSuccess } from "./auth"; // Import loginSuccess function
+import { ChatState } from "../../context/ChatProvider";
 
 const Login = () => {
   const [show, setShow] = useState(false);
@@ -21,6 +22,7 @@ const Login = () => {
   const history = useHistory();
   const toast = useToast();
 
+  const { setUser } = ChatState();
   const handleClick = () => {
     setShow(!show);
   };
@@ -62,9 +64,9 @@ const Login = () => {
       });
 
       // You can optionally store user data in local storage
+      setUser(data);
       localStorage.setItem("userInfo", JSON.stringify(data));
       setLoading(false);
-      window.location.reload();
       history.push("/chats");
     } catch (error) {
       console.log("error in login", error);
