@@ -123,6 +123,7 @@ const Signup = () => {
        
       setLoading(false);
       history.push("/");
+      window.location.reload();
     } catch (error) {
       toast({
         title: "Error occured",
