@@ -14,21 +14,21 @@ Chat-and-Chill is a real-time chat application built with the MERN stack, design
 ## Features
 
 **Login**
-![Login Page](/screenshots/1.png)
+![Login Page](/screenshots/1.PNG)
 **Sign Up**
-![sign up](/screenshots/2.png)
+![sign up](/screenshots/2.PNG)
 **User Page**
-![User page](/screenshots/3.png)
+![User page](/screenshots/3.PNG)
 **Search Users**
-![search users](/screenshots/4.png)
+![search users](/screenshots/4.PNG)
 **Typing...**
 ![typing](/screenshots/5.png)
 **Create Group Chat**
-![group chat](/screenshots/6.png)
+![group chat](/screenshots/6.PNG)
 **View Profile**
-![profile](/screenshots/7.png)
+![profile](/screenshots/7.PNG)
 **Notifiction**
-![notification](/screenshots/8.png)
+![notification](/screenshots/8.PNG)
 
 ## Getting Started
 
