@@ -126,18 +126,6 @@ const Login = () => {
       >
         Login
       </Button>
-      <Button
-        colorScheme="blue"
-        color={"pink.800"}
-        width={"100%"}
-        marginTop={"3"}
-        onClick={() => {
-          setEmail("guest@gmail.com");
-          setPassword("12345678");
-        }}
-      >
-        Guest User
-      </Button>
     </VStack>
   );
 };
