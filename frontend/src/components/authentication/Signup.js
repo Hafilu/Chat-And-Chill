@@ -122,7 +122,7 @@ const Signup = () => {
 
        
       setLoading(false);
-      history.push("/chats");
+      history.push("/");
     } catch (error) {
       toast({
         title: "Error occured",
